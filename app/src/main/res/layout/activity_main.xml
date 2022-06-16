@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F79AFF"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-78dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="381dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/app_name"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="-290dp"
+                android:layout_marginTop="51dp"
+
+                android:elevation="2dp"
+                android:text="моё смарт-устройство"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-750dp"
+                android:layout_marginTop="61dp"
+                android:elevation="2dp"
+                android:gravity="top"
+                app:srcCompat="@drawable/vector__5_" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/rectangle_9"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-630dp"
+                android:layout_marginTop="35dp"
+                app:srcCompat="@drawable/vector__1_" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="213dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="35dp"
+                android:gravity="top"
+                android:text="1.3km"
+
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/rectangle_9"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-630dp"
+                android:layout_marginTop="35dp"
+                app:srcCompat="@drawable/vector__2_" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="213dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="35dp"
+                android:gravity="top"
+                android:text="59 kcal"
+
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="top"
+        app:srcCompat="@drawable/rectangle_9"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="314dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="334dp"
+        android:foregroundGravity="top"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="30  min"
+
+        tools:ignore="MissingConstraints"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_9"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="400dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector__3_"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="416dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1583 steps"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="420dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="509dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector__10_"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="525dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/scale_1200__1__1"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="578dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle_3"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="511dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vector__11_"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="528dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="62 kg"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="526dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="82 bmp"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="529dp" tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_528474303176360636_1"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="582dp"
+        tools:ignore="MissingConstraints"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
